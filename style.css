@@ -1,0 +1,63 @@
+*{
+    background-color: #f2e9e9;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav{
+    padding: 15px 100px;
+    height: 15vh;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+nav ul li{
+    list-style: none;
+    /* margin-right: 5%; */
+    font-weight: 600;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Main CSS */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 40%;
+    margin-left:70px ;
+}
+.left h1{
+    font-size: 50px;
+}
+.left p{
+    margin: 5% 0;
+}
+button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+}
+.right{
+    width: 60%;
+    text-align: center;
+}
+.up img{
+    margin: 20px 10px;
+}
+.down img{
+    width: 500px;
+    border-radius: 10px;
+}
